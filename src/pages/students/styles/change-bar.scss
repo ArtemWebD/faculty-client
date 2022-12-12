@@ -1,0 +1,16 @@
+.change-bar {
+  .row {
+    padding: 0 0.75rem;
+    & > * {
+      padding: 0!important;
+
+      input, select, button {
+        border-radius: 0!important;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
